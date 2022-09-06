@@ -1,0 +1,64 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: rgb(102, 85, 85);
+
+}
+
+.card{
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 40%;
+}
+.card-body{
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: solid rgb(240, 240, 240) 4px;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+}
+.form-control{
+    margin:5%;
+    width: 100%;
+}
+input{
+    width: 80%;
+    border:none;
+    border: solid rgb(237, 230, 230) 2px;
+    border-radius: 10px;
+   
+}
+input[type*="email"], input[type*="password"]{
+ padding: 8px;
+}
+
+.row{
+    display: flex;
+}
+.row .col-4 a[href*="#"]{
+    padding-left: 20px;
+}
+a{
+    color: rgb(119, 119, 239);
+    text-decoration: none;
+}
+input[type*="button"]{
+    padding: 8px;
+    width:85%;
+    background-color: rgb(108, 108, 247);
+    color:white;
+}
+.text-center{
+    width:85%;
+    text-align: center;
+}
+.or{
+    padding-top: 10px;
+}
